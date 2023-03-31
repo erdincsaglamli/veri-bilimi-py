@@ -1,6 +1,12 @@
+
+dummies = pd.DataFrame(["A", "B", "A", "B", "C"])
+
+pd.get_dummies(dummies, prefix = "Dummy", drop_first = True)
+
+
+##########################################################################################################
+
 mapping numbers to category
-
-
 '''
 
 import pandas as pd, numpy as np
@@ -17,7 +23,7 @@ df['AgeRange'] = np.vectorize(d.get)(np.digitize(df['Age'], bins))
 
 '''
 
----
+##########################################################################################################
 
 import pandas as pd
 # Do some fast feature eng on the DF
