@@ -1,4 +1,4 @@
-Week 1 Session 2  
+# Week 1 Session 2  
 
 As a reminder, session 1 is about data science and the role of data scientists. It explains that data science is the study of data to extract meaningful insights for businesses and combines multiple disciplines to extract knowledge from massive datasets for the purpose of making informed decisions and predictions. It also defines data scientists as professionals who collect, analyze, and interpret big data to uncover patterns and insights, make predictions, and create actionable plans. The text provides examples of structured and unstructured data and how data scientists work with both. It also discusses the characteristics of the dataset, which can be described as quantitative, structured numerical data or qualitative, categorical data.
 In this second session, we provided you with some intriguing articles. To gain a broad understanding of the field of Data Science, the various roles involved, and the responsibilities associated with each role, we suggest that you read articles 1.1 to 1.3. Specifically, articles 1.1 and 1.2 cover the topic of what Data Scientists do, while article 1.3 focuses on the application of Data Science and the roles and responsibilities of data scientists.  
@@ -19,20 +19,25 @@ Overall, these four steps are essential for conducting data science research, an
 Some of the different data roles and the tools they use are;
 Roles in data science
 You might be surprised to learn that there isn't a single job within data science. Generally, there are four jobs: Data Engineer, Data Analyst, Data Scientist, and Machine Learning Scientist. Let's explore each one. Each of these roles requires a unique set of skills and expertise, and they often work closely together as part of a larger data science team. Additionally, the specific job duties and requirements may vary depending on the industry, company, and project at hand. 
-1. Data engineer
+
+
+## 1. Data engineer
 Data engineers control the flow of data: they build custom data pipelines and storage systems. They design infrastructure so that data is not only collected but easy to obtain and process. Within the data science workflow, they focus on the first stage: data collection and storage.
  
  
+![image](https://media1-production-mightynetworks.imgix.net/asset/55981347/Capture111.JPG?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
 The above statement is true because data engineers are responsible for not only building but also maintaining the data infrastructure of an organization. This includes designing, building, and maintaining data pipelines, databases, and other storage systems to ensure that data can be collected, stored, and accessed efficiently. Data engineers work closely with data scientists to ensure that the data is of high quality and can be used effectively for analysis.  
    Data engineering tools
 Data engineers are proficient in SQL, which they use to store and organize data. They also use one of the following programming languages like Java, Scala, or Python to process data. They use Shell on the command line to automate and run tasks. Finally, data engineers, now more than ever, need to be comfortable with cloud computing to ingest and store large amounts of data.
 
 
 
-2. Data analyst
+## 2. Data analyst
 
 Data analysts describe the present via data. They do this by exploring the data and creating visualizations and dashboards. To do these tasks, they often have to clean data first. Analysts have less programming and stats experience than the other roles. Within the workflow, they focus on the middle two stages: data preparation and exploration and visualization.
  
+![image](https://media1-production-mightynetworks.imgix.net/asset/55981192/Capture111.JPG?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
+
 The statement is generally true, but some clarifications are needed. Data analysts typically use data to provide insights and recommendations to stakeholders. They explore and analyze the data to identify patterns and trends, and then create visualizations and dashboards to communicate their findings. However, data cleaning is a critical step in the data analysis process, and analysts often spend a significant amount of time preparing data before analysis.
 While data analysts may have less programming and stats experience compared to data scientists or statisticians, they still need to have a solid understanding of statistical concepts and techniques to conduct meaningful analysis. Additionally, some data analysts may have programming skills to automate data cleaning and analysis tasks. Within the data science workflow, data analysts generally focus on the middle stage of data preparation and exploration and visualization, but they may also contribute to the later stages of modeling and interpretation, depending on their level of expertise.
    Data analyst tools
@@ -43,7 +48,10 @@ Data analysts use SQL, the same language used by data engineers, to query data. 
 3. Data scientist
 
 Data Scientists have a strong background in statistics, enabling them to find new insights from data, rather than solely describing data. They also use traditional machine learning, deep learning, natural language processing, and computer vision to for prediction and forecasting. Within the workflow, they focus on the last three stages: data preparation and exploration and visualization, and experimentation and prediction.
- 
+
+![image](https://media1-production-mightynetworks.imgix.net/asset/55981625/Capture111.JPG?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
+
+
 Also, while experimentation and prediction are important stages in the workflow, data scientists are involved in all stages of the data science process, from defining the problem to deploying the model in production.
 Conversation starter 1: Based on the articles we have read, can we conclude that data scientists may be involved in every step of the data science process? In addition, for those who have worked in similar roles, we would love to hear about your experiences. Let's discuss this topic in the community feed during the group discussion session.  
     Data scientist tools
@@ -54,6 +62,9 @@ Data scientists typically possess a strong foundation in SQL and must have profi
 4. Machine learning scientist
 
 Machine learning scientists are similar to data scientists, but with a machine learning specialization. Machine learning is perhaps the buzziest part of Data Science; it's used to extrapolate what's likely to be true from what we already know. These scientists use training data to classify larger, unrulier data, whether its to classify images that contain a car, or create a chatbot. They go beyond traditional machine learning with deep learning, a subset of machine learning that involves artificial neural networks. Within the workflow, they do the last three stages with a strong focus on prediction. 
+ 
+ 
+ ![image](https://media1-production-mightynetworks.imgix.net/asset/55982778/Capture111.JPG?ixlib=rails-4.2.0&fm=jpg&q=75&auto=format&w=1400&h=1400&fit=max&impolicy=ResizeCrop&constraint=downsize&aspect=fit)
  
 However, data scientists may be involved in earlier stages of the workflow, such as data collection, cleaning, and exploration, as well as later stages, such as experimentation and model selection, for several reasons.
  Firstly, having a strong understanding of the data from the early stages can help Data Scientists design better models and make more accurate predictions. Secondly, they may need to make modifications to the data or explore different variables to improve model performance. Thirdly, they may be working in small teams or startups where they are expected to handle multiple stages of the workflow due to limited resources. Lastly, working with the data throughout the workflow allows Data Scientists to gain a deeper understanding of the data and its limitations, which can help them identify opportunities for improvement and avoid potential issues.
@@ -68,7 +79,12 @@ To support the concluding statement that the choice of language and library will
 These are just a few examples, but they demonstrate how different programming languages and machine-learning libraries are used in different applications and for different purposes. 
 It may be intimidating to see all these tools and languages, but they aren't as difficult to learn as spoken languages. If you know English, it may take you years to learn French. Programming languages are more similar to power tools. If you know how to use a power drill, you don't necessarily know how to use an electric saw, but you can learn with a little training!
  
+ 
+ ---
+ 
+ 
 Conversation starter 2: What are the key distinctions between the roles of a data scientist, data engineer, data analyst, and machine learning engineer? Let's discuss this topic during our study group session and explore the unique skill sets and responsibilities of each role. 
+
 
 Let's read article 1.3 to gain their perspective on the central role played by data scientists and analyze some data science applications.
 Article 1.3 - Roles and responsibilities of data scientists / Application of Data Science 
