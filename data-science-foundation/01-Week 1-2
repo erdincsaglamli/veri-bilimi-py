@@ -1,0 +1,140 @@
+Week 1 Session 2  
+
+As a reminder, session 1 is about data science and the role of data scientists. It explains that data science is the study of data to extract meaningful insights for businesses and combines multiple disciplines to extract knowledge from massive datasets for the purpose of making informed decisions and predictions. It also defines data scientists as professionals who collect, analyze, and interpret big data to uncover patterns and insights, make predictions, and create actionable plans. The text provides examples of structured and unstructured data and how data scientists work with both. It also discusses the characteristics of the dataset, which can be described as quantitative, structured numerical data or qualitative, categorical data.
+In this second session, we provided you with some intriguing articles. To gain a broad understanding of the field of Data Science, the various roles involved, and the responsibilities associated with each role, we suggest that you read articles 1.1 to 1.3. Specifically, articles 1.1 and 1.2 cover the topic of what Data Scientists do, while article 1.3 focuses on the application of Data Science and the roles and responsibilities of data scientists.  
+=>  Article 1.1 & 1.2 - What do Data Scientists do
+
+
+The data science workflow generally comprises several key stages:
+•	Data collection and storage
+•	Data preparation
+•	Exploration and visualization
+•	Experimentation and visualization
+The four steps mentioned here are:
+1.	Data collection and storage: This step involves identifying and gathering the relevant data required for analysis and storing it in a format that can be easily accessed and processed. The data may come from a variety of sources, such as public databases, sensors, surveys, or web scraping. It is important to ensure that the data is of high quality, reliable, and relevant to the research question being addressed.
+2.	Data preparation: This step involves cleaning, transforming, and pre-processing the data to ensure it is in a format that can be easily analyzed. This can involve tasks such as removing duplicates, filling in missing values, standardizing the data format, and dealing with outliers or anomalies. The goal of this step is to prepare the data for analysis, which is essential for accurate and reliable results.
+3.	Exploration and visualization: In this step, the data is explored and visualized to identify patterns, trends, and relationships. This can involve tasks such as generating descriptive statistics, creating graphs and charts, and using clustering or dimensionality reduction techniques. The goal of this step is to gain a better understanding of the data and to identify potential areas of interest or concern that may require further investigation.
+4.	Experimentation and visualization: This step involves using statistical or machine learning models to analyze the data and make predictions or classifications. This can involve tasks such as selecting the appropriate algorithm, training the model, and evaluating its performance. The goal of this step is to test hypotheses, generate insights, and make predictions based on the data. Visualization is often used to communicate the results of the analysis in a clear and concise way, which is important for making informed decisions based on the findings.
+Overall, these four steps are essential for conducting data science research, and they are often iterative, meaning that each step may be repeated or revised as new insights or challenges arise. A well-designed workflow can help to ensure that the research is rigorous, transparent, and reproducible, which is important for building trust in the results and advancing the field of data science. 
+Some of the different data roles and the tools they use are;
+Roles in data science
+You might be surprised to learn that there isn't a single job within data science. Generally, there are four jobs: Data Engineer, Data Analyst, Data Scientist, and Machine Learning Scientist. Let's explore each one. Each of these roles requires a unique set of skills and expertise, and they often work closely together as part of a larger data science team. Additionally, the specific job duties and requirements may vary depending on the industry, company, and project at hand. 
+1. Data engineer
+Data engineers control the flow of data: they build custom data pipelines and storage systems. They design infrastructure so that data is not only collected but easy to obtain and process. Within the data science workflow, they focus on the first stage: data collection and storage.
+ 
+ 
+The above statement is true because data engineers are responsible for not only building but also maintaining the data infrastructure of an organization. This includes designing, building, and maintaining data pipelines, databases, and other storage systems to ensure that data can be collected, stored, and accessed efficiently. Data engineers work closely with data scientists to ensure that the data is of high quality and can be used effectively for analysis.  
+   Data engineering tools
+Data engineers are proficient in SQL, which they use to store and organize data. They also use one of the following programming languages like Java, Scala, or Python to process data. They use Shell on the command line to automate and run tasks. Finally, data engineers, now more than ever, need to be comfortable with cloud computing to ingest and store large amounts of data.
+
+
+
+2. Data analyst
+
+Data analysts describe the present via data. They do this by exploring the data and creating visualizations and dashboards. To do these tasks, they often have to clean data first. Analysts have less programming and stats experience than the other roles. Within the workflow, they focus on the middle two stages: data preparation and exploration and visualization.
+ 
+The statement is generally true, but some clarifications are needed. Data analysts typically use data to provide insights and recommendations to stakeholders. They explore and analyze the data to identify patterns and trends, and then create visualizations and dashboards to communicate their findings. However, data cleaning is a critical step in the data analysis process, and analysts often spend a significant amount of time preparing data before analysis.
+While data analysts may have less programming and stats experience compared to data scientists or statisticians, they still need to have a solid understanding of statistical concepts and techniques to conduct meaningful analysis. Additionally, some data analysts may have programming skills to automate data cleaning and analysis tasks. Within the data science workflow, data analysts generally focus on the middle stage of data preparation and exploration and visualization, but they may also contribute to the later stages of modeling and interpretation, depending on their level of expertise.
+   Data analyst tools
+Data analysts use SQL, the same language used by data engineers, to query data. While data engineers build and configure SQL storage solutions, analysts use existing databases to retrieve and aggregate data relevant to their analysis. Data analysts use spreadsheets to perform simple analyses on small quantities of data. Analysts also use Business Intelligence, or BI Tools, such as Tableau, Power BI, or Looker, to create dashboards and share their analyses. More advanced data analysts may be comfortable with Python or R for cleaning and analyzing data.
+
+
+
+3. Data scientist
+
+Data Scientists have a strong background in statistics, enabling them to find new insights from data, rather than solely describing data. They also use traditional machine learning, deep learning, natural language processing, and computer vision to for prediction and forecasting. Within the workflow, they focus on the last three stages: data preparation and exploration and visualization, and experimentation and prediction.
+ 
+Also, while experimentation and prediction are important stages in the workflow, data scientists are involved in all stages of the data science process, from defining the problem to deploying the model in production.
+Conversation starter 1: Based on the articles we have read, can we conclude that data scientists may be involved in every step of the data science process? In addition, for those who have worked in similar roles, we would love to hear about your experiences. Let's discuss this topic in the community feed during the group discussion session.  
+    Data scientist tools
+Data scientists typically possess a strong foundation in SQL and must have proficient skills in one or more programming languages like Python or R. In these languages, they use popular data science libraries such as pandas or tidyverse that contain reusable code for carrying out various data science tasks.  
+
+
+
+4. Machine learning scientist
+
+Machine learning scientists are similar to data scientists, but with a machine learning specialization. Machine learning is perhaps the buzziest part of Data Science; it's used to extrapolate what's likely to be true from what we already know. These scientists use training data to classify larger, unrulier data, whether its to classify images that contain a car, or create a chatbot. They go beyond traditional machine learning with deep learning, a subset of machine learning that involves artificial neural networks. Within the workflow, they do the last three stages with a strong focus on prediction. 
+ 
+However, data scientists may be involved in earlier stages of the workflow, such as data collection, cleaning, and exploration, as well as later stages, such as experimentation and model selection, for several reasons.
+ Firstly, having a strong understanding of the data from the early stages can help Data Scientists design better models and make more accurate predictions. Secondly, they may need to make modifications to the data or explore different variables to improve model performance. Thirdly, they may be working in small teams or startups where they are expected to handle multiple stages of the workflow due to limited resources. Lastly, working with the data throughout the workflow allows Data Scientists to gain a deeper understanding of the data and its limitations, which can help them identify opportunities for improvement and avoid potential issues.
+     Machine learning tools
+Machine learning scientists use either Python or R to create their predictive models. There are other programming languages and tools, such as Julia and MATLAB, that are also used for machine learning.  Within these languages, they use popular machine learning libraries, such as TensorFlow, to run powerful deep learning algorithms. There are also other popular libraries such as PyTorch, Keras, and scikit-learn, that are used for machine learning in Python, and several libraries like caret and randomForest that are commonly used in R. Lastly, the choice of programming language and machine learning library often depends on the specific problem they are trying to solve and the resources available to them. 
+To support the concluding statement that the choice of language and library will depend on the specific problem at hand and the resources available to the machine learning scientist, here is a description of some of the aforementioned libraries.
+1.	Julia for high-performance computing: Julia is a programming language that is specifically designed for high-performance computing. It has gained popularity in the machine learning community because it is fast, easy to use, and has a growing ecosystem of machine learning libraries.
+2.	MATLAB for signal processing: MATLAB is a programming language that is widely used in signal processing applications, such as image and audio processing. It has a comprehensive set of toolboxes and functions for machine learning, making it a popular choice for researchers and engineers in these fields.
+3.	PyTorch for research: PyTorch is a deep learning library that is gaining popularity among researchers because of its flexibility and ease of use. It allows for dynamic computation graphs and has a strong community of contributors who are constantly improving the library and adding new features.
+4.	Keras for rapid prototyping: Keras is a high-level deep learning library that is designed for rapid prototyping. It is built on top of TensorFlow and allows users to quickly build and experiment with different neural network architectures.
+5.	Scikit-learn for general machine learning: Scikit-learn is a popular machine learning library in Python that provides a wide range of algorithms for classification, regression, clustering, and dimensionality reduction. It is easy to use and has a large user community, making it a popular choice for general machine learning tasks.
+These are just a few examples, but they demonstrate how different programming languages and machine-learning libraries are used in different applications and for different purposes. 
+It may be intimidating to see all these tools and languages, but they aren't as difficult to learn as spoken languages. If you know English, it may take you years to learn French. Programming languages are more similar to power tools. If you know how to use a power drill, you don't necessarily know how to use an electric saw, but you can learn with a little training!
+ 
+Conversation starter 2: What are the key distinctions between the roles of a data scientist, data engineer, data analyst, and machine learning engineer? Let's discuss this topic during our study group session and explore the unique skill sets and responsibilities of each role. 
+
+Let's read article 1.3 to gain their perspective on the central role played by data scientists and analyze some data science applications.
+Article 1.3 - Roles and responsibilities of data scientists / Application of Data Science 
+
+ 
+Let’s test our understanding of data science applications using these scenarios:
+Scenario 1: Data workflow:
+Assigning data science project Laura manages an analytics team and has a few tasks that she's hoping to achieve this quarter. The tasks are centered around the following domains:
+I. traditional machine learning 
+II. deep learning 
+III. Internet of Things (IoT) 
+The knowledge to build traditional machine learning and deep learning applications is present within her team. There is another team in the company that is specialized in working with IoT data. Laura wants to know for which tasks she'll need their help.
+Given the three domains above, answer questions 1 to 5.
+Question 1 - Using Scenario 1 above, what domain does the statement below fall in?
+Predict ride-sharing prices at a certain time and location based on previous prices.
+I, II, or III
+
+
+
+Question 2 - Using Scenario 1, what domain does the statement below fall in?
+
+Cluster patients by symptoms to help doctors select a treatment.
+I, II, or III
+
+
+Question 3 - Using Scenario 1, what domain does the statement below fall in?
+
+Automate building cooling using temperature sensors.
+Is it domain I, II, or III
+
+
+Question 4 - Using Scenario 1, what domain does the statement below fall in?
+
+Automatically summarize text from news articles.
+Is it domain I, II, or III
+
+
+
+
+Question 5 - Using Scenario 1, what domain does the statement below fall in?
+
+Detect Machinery Failure with vibration detectors
+Is it domain I, II, or III
+
+
+Question 6 - Using Scenario 1, what domain does the statement below fall in?
+
+Flag images that contain a safety violation
+Is it domain I, II, or III
+
+
+
+Great job attempting these questions! Let's try scenario 2.
+
+Scenario 2: Investment research:
+Greg is an investment analyst. He's been asked to review a new start-up that uses easy-to-install vibration sensors to measure the amount of traffic on a bridge or highway. His boss has asked him to do some background research and decide which category this start-up belongs in.
+Take a look at the list of content on the startup's dashboard and help Greg answer this question.  
+Content of the dashboard: The dashboard has a display of Average speed, total toll amount, average cars, and a map of Broklyn Bridge.
+Using Scenario 2, which category best fits this start-up? 
+I. Traditional machine learning
+II. Deep learning
+III. Internet of Things
+IV. Natural language processing
+Which one of the categories should be the correct answer?  I, II, III, or IV?
+
+It might be difficult for absolute beginners to understand the categories. Here is a hint; 
+Natural language processing involves applying machine learning methodologies to text and speech. Vibration sensors can be used to collect data and upload it to the Internet. 
+With this hint, do you know the answer to the question?   Tell us in the community feed section.
+
